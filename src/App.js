@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import {useState} from 'react'
+import Quotes from './Quotes'
 
 function App() {
+  const [quoote,setQuoote] = useState([])
+  
+  const getQuotes = async () =>{
+    const response = await fetch('https://animechan.vercel.app/api/random')
+    const data = await response.json()
+    setQuoote(data)
+    console.log(data)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Quotes anime={quoote.anime} quote={quoote.quote} character={quoote.character}/>
+    <br />
+    <button onClick={getQuotes}>Load More</button>
     </div>
   );
 }
 
 export default App;
+// adobe color recoomneded by hp foods and co
