@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/anime-quotes-react/static/js/main.0828ccc4.chunk.js",
+    "main.js.map": "/anime-quotes-react/static/js/main.0828ccc4.chunk.js.map",
+    "runtime-main.js": "/anime-quotes-react/static/js/runtime-main.de7f67d6.js",
+    "runtime-main.js.map": "/anime-quotes-react/static/js/runtime-main.de7f67d6.js.map",
+    "static/js/2.f597e3e9.chunk.js": "/anime-quotes-react/static/js/2.f597e3e9.chunk.js",
+    "static/js/2.f597e3e9.chunk.js.map": "/anime-quotes-react/static/js/2.f597e3e9.chunk.js.map",
+    "index.html": "/anime-quotes-react/index.html",
+    "static/js/2.f597e3e9.chunk.js.LICENSE.txt": "/anime-quotes-react/static/js/2.f597e3e9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de7f67d6.js",
+    "static/js/2.f597e3e9.chunk.js",
+    "static/js/main.0828ccc4.chunk.js"
+  ]
+}
